@@ -18,5 +18,7 @@ jobs:
       run: echo "the current time and date in Github $(date)"
     - name: echo information about the context
       run: echo "head_ref - ${{ github.head_ref }}, owner- ${{ github.repository_owner }}"
+    - name: echo information about the job id and path
+      run: echo "the job id is ${{ github.job }} and the path is ${{ github.path }}"
 
 
