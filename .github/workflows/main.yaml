@@ -17,6 +17,6 @@ jobs:
       #run mans execute the command on the OS
       run: echo "the current time and date in Github $(date)"
     - name: echo information about the context
-      run: echo "head_ref - ${{ github.head_ref }}, owner- ${{ github.repository_owner }}""
+      run: echo "head_ref - ${{ github.head_ref }}, owner- ${{ github.repository_owner }}"
 
 
