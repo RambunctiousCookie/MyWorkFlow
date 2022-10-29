@@ -1,0 +1,18 @@
+name: My First Workflow
+
+#trigger
+on: 
+- push
+
+#Jobs in the workflow
+jobs:
+  #job name,
+  my-first-workflow:
+    #OS that this workflow is running on
+    runs on: ubuntu-latest
+
+    #list of steps to perform task
+    steps:
+    - name: echo the date
+      #run mans execute the command on the OS
+      run: echo "the current time and date in Github $(date)"
