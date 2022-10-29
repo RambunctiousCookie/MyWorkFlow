@@ -23,6 +23,6 @@ jobs:
     - name: remind user that yaml uses python syntax
       run: echo "yaml uses python syntax, so please remember to indent all of the array elements with the same number of spaces!"
     - name: try creating a mkdir in git
-      run: ego mkdir TestDir
+      run: echo mkdir TestDir
 
 
