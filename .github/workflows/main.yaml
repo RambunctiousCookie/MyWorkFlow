@@ -22,7 +22,7 @@ jobs:
       run: echo "the job id is ${{ github.job }} and the path is ${{ github.path }}"
     - name: remind user that yaml uses python syntax
       run: echo "yaml uses python syntax, so please remember to indent all of the array elements with the same number of spaces!"
-      #test
+      #test- hmm this doesn't create a new folder
     - name: try creating a mkdir in git
       run: mkdir TestDir
 
