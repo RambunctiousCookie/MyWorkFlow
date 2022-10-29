@@ -34,7 +34,9 @@ jobs:
 
     - name: list my current directory
       run: ls -l
-    -name: checkout the current repo
+    - name: checkout the current repo
       uses: actions/checkout@v3
+    - name: list again
+      run: ls -l
 
 
