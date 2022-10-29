@@ -25,5 +25,6 @@ jobs:
       #test- hmm this doesn't create a new folder
     - name: try creating a mkdir in git
       run: mkdir TestDir
-
+    - name: fail workflow
+      run: fail()
 
